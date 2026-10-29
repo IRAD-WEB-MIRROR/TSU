@@ -1,0 +1,51 @@
+{
+  "slug": "rider-from-kenkol",
+  "title": "The Rider from Kenkol",
+  "subtitle": "Kenkol Ashuusu",
+  "author": "Ormon Satarov",
+  "author_sort": "Satarov, Ormon",
+  "author_note": "pseudonym",
+  "translator": "Aidana Mukash kyzy",
+  "series": "The Ottuk Library, No. 7",
+  "series_url": "library/ottuk/",
+  "form": "Novel",
+  "collection": "Iradi Literature",
+  "publisher": "Arsha Books, Talas",
+  "published": "Iradi original (Кенкол ашуусу) Irad State Publishing House, 1964; English translation, with the censored passages restored, Arsha Books, 2022",
+  "written": "Early 1960s; set in October and November 1925",
+  "language": "English, translated from the Iradi",
+  "pages": 115,
+  "pdf": "rider-from-kenkol.pdf",
+  "cover": "cover.jpg",
+  "accession": "TSU-DA-2026-0148",
+  "added": "2026-10-19",
+  "legal_deposit": "State Archives of Irad, LD 2022/0861",
+  "subjects": [
+    "Ottuk Library (1962–1968)",
+    "Iradi westerns",
+    "Horse theft",
+    "Stud farms",
+    "Akyel horse",
+    "Kenkol Pass",
+    "Kenkol valley",
+    "Chatkal valley",
+    "Basmachi",
+    "Turkestan Front",
+    "Malka",
+    "White Rider",
+    "Censorship, Soviet"
+  ],
+  "abstract": "October 1925. In the night ten riders cut the rails of the state stud at Chong-Talas and drive off forty-one golden mares in foal and the black stallion Kara-Jal. The militia's one lorry is away in Kara-Buura, so Bayish Kenje uulu, a Red cavalry scout turned horse-breaker, saddles his wall-eyed grey mare and goes after them alone, over the Kenkol Pass, with a hundred and twenty rounds. Ahead of him rides a man he has followed once before, and a debt from a dry valley above Andijan four years earlier; at the top of the pass a rider on a white horse is watching. No. 7 of the Ottuk Library, the pocket westerns in Iradi issued by the Irad State Publishing House from 1962 to 1968, and the best-loved of them. Its author, who wrote under a pen name, was a former cavalry scout and veterinary surgeon. The censor cut about a tenth of the 1964 edition: juniper smoke, the malka, a priest in a yurt chapel, the rider on the pass. Aidana Mukash kyzy's translation, the first Ottuk Library book in English, restores the cut passages from the author's typescript and marks each one in a note. With the translator's note on the author and a glossary.",
+  "rights": "Iradi text © Arsha Books, by purchase of the Talas Kitep catalogue, 2019. Translation © Aidana Mukash kyzy, 2022. Made available by the National Library of Irad from its legal deposit copy with the permission of Arsha Books and the translator, for reading and research. Not for commercial reuse.",
+  "related": [
+    {
+      "href": "library/ottuk/",
+      "note": "Part of the Ottuk Library deposit: the 1960s Iradi editions held by the National Library, and the other titles of the series."
+    },
+    {
+      "slug": "twelve-kilometres",
+      "note": "Also translated by Aidana Mukash kyzy: Aikokul Tursunbek kyzy, Twelve Kilometres (2016)."
+    }
+  ],
+  "publisher_url": "https://arshakitep.com/ottuk-library.html"
+}
