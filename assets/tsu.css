@@ -403,3 +403,4 @@ body.reading .progress { left: 0; }
 .signup{background:#f2f5fa;border:1px solid #d5ddea;padding:12px 14px;margin:10px 0 18px}
 .signup input{padding:7px 8px;border:1px solid #aab;min-width:240px;max-width:100%}
 .signup-msg:empty{display:none}
+.kbd-svg { display: block; width: 100%; max-width: 760px; height: auto; margin: 14px 0 6px; }

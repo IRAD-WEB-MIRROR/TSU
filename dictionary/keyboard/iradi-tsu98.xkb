@@ -1,0 +1,34 @@
+// Iradi (Latin) TSU-98, revision 3. Talas State University Computing Centre.
+// Copy to /usr/share/X11/xkb/symbols/iradi and run: setxkbmap iradi
+
+default partial alphanumeric_keys
+xkb_symbols "tsu98" {
+    include "us(basic)"
+    name[Group1]= "Iradi (Latin) TSU-98";
+
+    key <TLDE> { [ ntilde, Ntilde, grave, asciitilde ] };
+    key <AE02> { [ 2, quotedbl, at, NoSymbol ] };
+    key <AE03> { [ 3, numerosign, numbersign, NoSymbol ] };
+    key <AE04> { [ 4, semicolon, dollar, EuroSign ] };
+    key <AE06> { [ 6, colon, asciicircum, NoSymbol ] };
+    key <AE07> { [ 7, question, ampersand, NoSymbol ] };
+    key <AD03> { [ e, E, EuroSign, NoSymbol ] };
+    key <AD07> { [ u, U, udiaeresis, Udiaeresis ] };
+    key <AD08> { [ i, Iabovedot, idotless, I ] };
+    key <AD09> { [ o, O, odiaeresis, Odiaeresis ] };
+    key <AD11> { [ odiaeresis, Odiaeresis, bracketleft, braceleft ] };
+    key <AD12> { [ udiaeresis, Udiaeresis, bracketright, braceright ] };
+    key <AC01> { [ a, A, adiaeresis, Adiaeresis ] };
+    key <AC02> { [ s, S, scedilla, Scedilla ] };
+    key <AC10> { [ scedilla, Scedilla, semicolon, colon ] };
+    key <AC11> { [ idotless, I, apostrophe, quotedbl ] };
+    key <BKSL> { [ ccedilla, Ccedilla, backslash, bar ] };
+    key <AB03> { [ c, C, ccedilla, Ccedilla ] };
+    key <AB06> { [ n, N, ntilde, Ntilde ] };
+    key <AB08> { [ comma, less, comma, less ] };
+    key <AB09> { [ period, greater, period, greater ] };
+    key <AB10> { [ period, comma, slash, question ] };
+    key <LSGT> { [ ccedilla, Ccedilla, backslash, bar ] };
+
+    include "level3(ralt_switch)"
+};
