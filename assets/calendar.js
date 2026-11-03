@@ -10,9 +10,9 @@
   var TRAD = [["Üçtün ayı", "month of the three, counted from the Pleiades"], ["Birdin ayı", "month of the one"], ["Jalgan kuran", "false roe deer"],
     ["Çın kuran", "true roe deer"], ["Bugu", "red deer"], ["Kulja", "argali ram"], ["Teke", "ibex"], ["Baş oona", "early oona"],
     ["Ayak oona", "late oona"], ["Toguzdun ayı", "month of the nine"], ["Jetinin ayı", "month of the seven"], ["Beştin ayı", "month of the five"]];
-  // the müçöl, 2026 = Horse; Iradi names only where the dictionary has them
-  var ANIMALS = [["Mouse"], ["Cow", "uy jılı", "thought unlucky; some highland grandmothers call it the Year of the Argali, arkar jılı"], ["Tiger"], ["Hare"], ["Fish"],
-    ["Snake"], ["Horse", "jılkı jılı", "thought a good year"], ["Sheep"], ["Monkey"], ["Hen"], ["Dog"], ["Pig"]];
+  // the müçöl, 2026 = Horse; Iradi names from the dictionary
+  var ANIMALS = [["Mouse", "çıçkan jılı"], ["Cow", "uy jılı", "thought unlucky; some highland grandmothers call it the Year of the Argali, arkar jılı"], ["Tiger", "jolbors jılı"], ["Hare", "koyon jılı"], ["Fish", "balık jılı"],
+    ["Snake", "jılan jılı"], ["Horse", "jılkı jılı", "thought a good year"], ["Sheep", "koy jılı"], ["Monkey", "meçin jılı"], ["Hen", "took jılı"], ["Dog", "it jılı"], ["Pig", "doñuz jılı"]];
   function animal(y) { return ANIMALS[(((y - 2020) % 12) + 12) % 12]; }
 
   function esc(s) { return String(s == null ? "" : s).replace(/[&<>"]/g, function (c) { return { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]; }); }
