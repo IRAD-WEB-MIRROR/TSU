@@ -68,6 +68,7 @@
       [E - 48, "Uluu Savma, the Great Fast, begins", "The nakus is beaten to open the fast.", "fast"], [E - 3, "Achytky Beyshembi, Holy Thursday", "“Leaven Thursday”: the malka is renewed in the highland parishes.", "great"],
       [E - 2, "Good Friday", "The bells are silent; the nakus is beaten.", "fast"], [E - 1, "Holy Saturday", "", "fast"], [E, "Kyamta, the Resurrection", "Christ is risen!", "great"],
       [E + 39, "The Ascension", "", "feast"], [E + 49, "Pentecost", "", "great"],
+      [mk(9, 14) + 7 - wd(mk(9, 14)), "Sunday of the Saints of Irad", "The end of the pilgrimage season: the cathedral names all the saints of Irad in order and the parishes bring their icons out on the bema.", "feast"],
       [sundayNearest(mk(5, 6)), "Jazgy Chabandoz, the spring Feast of the White Rider", "Folk feast as the herds go up: white horses led round the chapels, milk poured at the springs.", "folk"],
       [sundayNearest(mk(10, 1)), "Küzgü Chabandoz, the autumn Feast of the White Rider", "Folk feast as the herds come down.", "folk"]];
     mov.forEach(function (m) { if (m[0] === n) feasts.push({ name: m[1], note: m[2], kind: m[3] }); });
